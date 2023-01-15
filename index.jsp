@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,10 +10,10 @@
 
         if (username === "Gal" && password === "123") {
           // correct login
-          window.location.href = "success.html";
+          window.location.href = "success.jsp";
         } else {
           // incorrect login
-          window.location.href = "error.html";
+          window.location.href = "error.jsp";
         }
       }
     </script>
